@@ -234,7 +234,7 @@ function install_hhvm() {
   sudo DEBIAN_FRONTEND=noninteractive apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xB4112585D386EB94
 
   log "Adding HHVM repo"
-  sudo DEBIAN_FRONTEND=noninteractive add-apt-repository "deb http://dl.hhvm.com/ubuntu xenial-lts-3.21 main"
+  sudo DEBIAN_FRONTEND=noninteractive add-apt-repository "deb http://dl.hiphop-php.com/ubuntu xenial-lts-3.21 main"
 
   package_repo_update
   package hhvm
@@ -279,7 +279,7 @@ function install_composer() {
   local __path=$1
 
   cd $__path
-  dl_pipe "https://getcomposer.org/installer" | php
+  dl_pipe "https://install.phpcomposer.com/installer" | php
   hhvm composer.phar install
   sudo mv composer.phar /usr/bin
   sudo chmod +x /usr/bin/composer.phar
