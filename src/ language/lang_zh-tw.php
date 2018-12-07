@@ -7,7 +7,7 @@ $translations = array(
   //Translations for IndexController
   'Facebook CTF' =>
     'Facebook CTF',
-  'Conquer the world' =>
+  'Conquer the world'c =>
     '征服世界',
   'Play' =>
     '開始',
