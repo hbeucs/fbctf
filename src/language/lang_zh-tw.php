@@ -10,13 +10,13 @@ $translations = array(
   'Conquer the world' =>
     '征服世界',
   'Play' =>
-    '開始',
+    '开始',
   'Welcome to the Facebook Capture the Flag Competition. By clicking "Play," you will be entered into the official CTF challenge. Good luck in your conquest.' =>
-    '歡迎來到 Facebook Capture the Flag 競賽。立刻點擊 "開始" 進入正式的 CTF 挑戰。祝征途愉快。',
+    '欢迎来到 Facebook Capture the Flag 競賽。立刻點擊 "開始" 進入正式的 CTF 挑戰。祝征途愉快。',
   'Get ready for the CTF to start and access the gameboard now!' =>
     '立即查看遊戲版圖並準備開始進行 CTF！',
   'Gameboard' =>
-    '遊戲版圖',
+    '游戏地图',
   'Register Team' =>
     '註冊隊伍',
   'Get ready for the CTF to start and register your team now!' =>
