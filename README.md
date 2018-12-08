@@ -1,6 +1,10 @@
-修改countries.sql中的TW为CN.
+修改./database/countries.sql中的TW为CN.
 
-修改./extra/lib.sh中需要翻墙的域名.
+修改./extra/lib.sh中需要翻墙的域名
+https://getcomposer.org/installer  修改为：
+https://install.phpcomposer.com/installer .
+
+修改./src/language/lang_zh-tw.php中的繁体字为简体字.
 
 上传源为阿里云的sources.list文件.
 
