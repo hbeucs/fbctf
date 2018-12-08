@@ -1,682 +1,683 @@
-<? hh  // strict
+<?hh // strict
+
 /* HH_IGNORE_ERROR[1002] */
-$translations  =  array (
-  ' date and time format '  =>
-    ' H:i:s D m/d/Y ' , // used by date() function
-  // Translations for IndexController
-  ' Facebook CTF '  =>
-    ' Facebook CTF ' ,
-  ' Conquer the world ' c  =>
-    'Õ÷·þÊÀ½ç' ,
-  ' Play '  =>
-    '¿ªÊ¼' ,
-  ' Welcome to the Facebook Capture the Flag Competition. By clicking "Play," you will be entered into the official CTF challenge. Good luck in your conquest. '  =>
-    '»¶Ó­À´µ½Facebook Capture the Flag¾ºÈü¡£Á¢¿Ìµã»÷"¿ªÊ¼"½øÈëÕýÊ½µÄCTFÌôÕ½¡£×£Õ÷Í¾Óä¿ì¡£' ,
-  ' Get ready for the CTF to start and access the gameboard now! '  =>
-    'Á¢¼´²é¿´ÓÎÏ·°æÍ¼²¢×¼±¸¿ªÊ¼½øÐÐCTF£¡' ,
-  ' Gameboard '  =>
-    'ÓÎÏ·°æÍ¼' ,
-  ' Register Team '  =>
-    '×¢²á¶ÓÎé' ,
-  ' Get ready for the CTF to start and register your team now! '  =>
-    'Á¢¼´×¢²á¶ÓÎé²¢×¼±¸¿ªÊ¼½øÐÐCTF£¡' ,
-  ' Login '  =>
-    'µÇÈë' ,
-  ' Soon '  =>
-    '¼´½«' ,
-  ' Upcoming Game '  =>
-    '´ý½øÐÐ' ,
-  ' _days '  =>
-    ' _Ìì' ,
-  ' _hours '  =>
-    ' _Ð¡Ê±' ,
-  ' _minutes '  =>
-    ' _·ÖÖÓ' ,
-  ' _seconds '  =>
-    ' _Ãë' ,
-  ' Official CTF Rules '  =>
-    'ÕýÊ½CTF¹æÔò' ,
-  ' Following actions are prohibited, unless explicitly told otherwise by event Admins. '  =>
-    '³ý·Ç¹ÜÀíÔ±Ã÷È·ËµÃ÷£¬·ñÔò½ûÖ¹ÒÔÏÂµÄÐÐÎª¡£' ,
-  ' Rule '  =>
-    '¹æÔò' ,
-  ' Cooperation '  =>
-    '»¥Öú' ,
-  ' No cooperation between teams with independent accounts. Sharing of keys or providing revealing hints to other teams is cheating, don't do it. '  =>
-    '¶ÓÎéÖ®¼ä½ûÖ¹»¥ÖúµÄÐÐÎª¡£½÷¼Ç£¬·ÖÏí½ðÔ¿»òÊÇÌá¹©ÌáÊ¾¸øÆäËüµÄ¶ÓÎé½«±»ÊÓÎª×÷±×£¡' ,
-  ' Attacking Scoreboard '  =>
-    '¹¥»÷¼Ç·Ö°å' ,
-  ' No attacking the competition infrastructure. If bugs or vulns are found, please alert the competition organizers immediately. '  =>
-    '½ûÖ¹¹¥»÷¾ºÈüÏà¹ØµÄ»ù´¡ÉèÊ©¡£Èç·¢ÏÖ´íÎó»òÊÇÂ©¶´£¬ÇëÁ¢¼´Í¨±¨¹ÜÀíÔ±¡£' ,
-  ' Sabotage '  =>
-    '·Áº¦' ,
-  ' Absolutely no sabotaging of other competing teams, or in any way hindering their independent progress. '  =>
-    'Ç¿ÁÒ½ûÖ¹¶ÓÎé¼ä½âÌâ½ø¶ÈÖ®·Áº¦»ò×èÄÓ¡£' ,
-  ' Bruteforcing '  =>
-    '±©Á¦¹¥»÷' ,
-  ' No brute forcing of challenge flag/ keys against the scoring site. '  =>
-    '½ûÖ¹ÒÔ±©Á¦·½Ê½³¢ÊÔÈ¡µÃ¼Ç·ÖÍøÕ¾½ðÔ¿¡£' ,
-  ' Denial Of Service '  =>
-    '×è¶Ï·þÎñ¹¥»÷' ,
-  ' DoSing the CTF platform or any of the challenges is forbidden. '  =>
-    '½ûÖ¹¶ÔCTFÆ½Ì¨»òÌâÄ¿ÊµÐÐ×è¶Ï·þÎñ¹¥»÷¡£' ,
-  ' Legal '  =>
-    '·¨ÂÉ' ,
-  ' Disclaimer '  =>
-    'ÃâÔðÉùÃ÷' ,
-  ' By participating in the contest, you agree to release Facebook and its employees, and the hosting organization from any and all liability, claims or actions of any kind whatsoever for injuries, damages or losses to persons and property which may be sustained in connection with the contest. You acknowledge and agree that Facebook et al is not responsible for technical, hardware or software failures, or other errors or problems which may occur in connection with the contest. '  =>
-    'µ±Äú²ÎÓë±ÈÈüÊ±£¬ÄúÍ¬Òâ·ÅÆúÈÎºÎ¼°ËùÓÐ¶ÔFacebookºÍÆäÔ±¹¤ÒÔ¼°ÍÐ¹Ü×éÖ¯ÔÚ¾ºÈüÁ¬ÏßÆÚ¼ä¶ÔÈËÉíºÍ²Æ²úµÄÈÎºÎËðÊ§»òËðº¦²úÉúµÄÓëÆäÏà¹ØµÄÈÎºÎËðº¦»òËðÊ§ÔðÈÎµÄË÷Åâ¡£' ,
-  ' If you have any questions about what is or is not allowed, please ask an organizer. '  =>
-    'Èç¹ûÄú¶ÔÉÏÊöÎÊÌâÓÐÒÉÂÇ£¬ÇëÁ¢¼´ÏòÍÐ¹Ü×éÖ¯·´Ó³¡£' ,
-  ' Have fun! '  =>
-    'ÍæµÃÓä¿ì£¡' ,
-  ' Name '  =>
-    'ÐÕÃû' ,
-  ' Email '  =>
-    'ÐÅÏä' ,
-  ' Token '  =>
-    ' Token ' ,
-  ' Team Registration '  =>
-    '¶ÓÎé×¢²á' ,
-  ' Team Name '  =>
-    '¶ÓÎéÃû³Æ' ,
-  ' Password '  =>
-    'ÃÜÂë' ,
-  ' Choose an Emblem '  =>
-    'Ñ¡ÔñÒ»¸ö±êÖ¾' ,
-  ' or upload your own '  =>
-    '»òÉÏ´«×Ô¼ºµÄ' ,
-  ' Clear your custom emblem to use a default emblem. '  =>
-    'Çå³ýÄúµÄ×Ô¶¨Òå»á»ÕÒÔÊ¹ÓÃÄ¬ÈÏ»á»Õ¡£' ,
-  ' Password is too simple '  =>
-    'ÃÜÂëÌ«¼òµ¥ÁË' ,
-  ' Sign Up '  =>
-    '×¢²á' ,
-  ' Register to play Capture The Flag here. Once you have registered, you will be logged in. '  =>
-    '×¢²áÒÔ½øÐÐCapture The Flag ¡£×¢²áÍê±ÏÊ±£¬»á½«Äú×Ô¶¯µÇÈë¡£' ,
-  ' Not Available '  =>
-    '·þÎñ²»¿ÉÓÃ' ,
-  ' Team Registration will be open soon, stay tuned! '  =>
-    '¶ÓÎé×¢²á¼´½«¿ª·Å£¬Çë¾²ºò¼ÑÒô¡£' ,
-  ' Try Again '  =>
-    'ÔÙÊÔÒ»±é' ,
-  ' Select '  =>
-    'Ñ¡Ôñ' ,
-  ' Team Login '  =>
-    '¶ÓÎéµÇÈë' ,
-  ' Please login here. If you have not registered, you may do so by clicking "Sign Up" below. '  =>
-    'ÇëµÇÈë¡£Èç¹ûÄúÉÐÎ´×¢²á£¬Çëµã»÷ÏÂ·½µÄ"×¢²á" ¡£' ,
-  ' Team Login will be open soon, stay tuned! '  =>
-    '¶ÓÎéµÇÈë¼´½«¿ª·Å£¬Çë¾²ºò¼ÑÒô¡£' ,
-  ' ERROR '  =>
-    '´íÎó' ,
-  ' Start Over '  =>
-    'ÖØÐÂÀ´¹ý' ,
-  ' Window is too small '  =>
-    'ÊÓ´°¹ýÐ¡' ,
-  ' For the best CTF experience, please make window size bigger. '  =>
-    'ÎªÁËÌåÑé×î¼ÑµÄCTFÓÎÏ·£¬Çë·Å´óÊÓ´°¡£' ,
-  ' Thank you. '  =>
-    'Ð»Ð»¡£' ,
-  ' Logout '  =>
-    'µÇ³ö' ,
-  ' Registration '  =>
-    '×¢²á' ,
-  ' Play CTF '  =>
-    '½øÐÐCTF ' ,
-  ' Rules '  =>
-    '¹æÔò' ,
-  // Translations for GameboardController
-  ' Admin '  =>
-    'ºóÌ¨' ,
-  ' ADMIN '  =>
-    'ºóÌ¨' ,
-  ' Navigation '  =>
-    'µ¼º½' ,
-  ' View Mode '  =>
-    '¹Û¿´Ä£Ê½' ,
-  ' View mode '  =>
-    '¹Û¿´Ä£Ê½' ,
-  ' Tutorial '  =>
-    '½ÌÑ§' ,
-  ' Scoreboard '  =>
-    '¼Ç·Ö°å' ,
-  ' You '  =>
-    'Äú' ,
-  ' Others '  =>
-    'ÆäËû' ,
-  ' All '  =>
-    'ËùÓÐ' ,
-  ' Leaderboard '  =>
-    '»ý·Ö°ñ' ,
-  ' Announcements '  =>
-    '¹«¸æ' ,
-  ' Teams '  =>
-    '¶ÓÎé' ,
-  ' Filter '  =>
-    'É¸Ñ¡' ,
-  ' Activity '  =>
-    '»î¶¯' ,
-  ' Game Clock '  =>
-    'ÓÎÏ·Ê±¼ä' ,
-  // Translations for AdminController
-  ' Auto '  =>
-    '×Ô¶¯' ,
-  ' All Categories '  =>
-    'ËùÓÐÀà±ð' ,
-  ' Open '  =>
-    '¿ª·ÅÊ½' ,
-  ' Tokenized '  =>
-    ' TokenÊ½' ,
-  ' Hour '  =>
-    'Ð¡Ê±' ,
-  ' Hours '  =>
-    'Ð¡Ê±' ,
-  ' Used by '  =>
-    'ÒÑÊ¹ÓÃ' ,
-  ' Used By '  =>
-    'ÒÑÊ¹ÓÃ' ,
-  ' Available '  =>
-    '¿ÉÓÃµÄ' ,
-  ' Registration Tokens '  =>
-    '×¢²áTokens ' ,
-  ' Create More '  =>
-    '½¨Á¢¸ü¶à' ,
-  ' Export Available '  =>
-    '»ã³ö¿ÉÓÃ' ,
-  ' Not started yet '  =>
-    'ÉÐÎ´¿ªÊ¼' ,
-  ' Configuration '  =>
-    'Éè¶¨' ,
-  ' Tokens '  =>
-    ' Tokens ' ,
-  ' Game Configuration '  =>
-    'ÓÎÏ·Éè¶¨' ,
-  ' OK '  =>
-    'Õý³£' ,
-  ' status_ '  =>
-    '×´Ì¬_ ' ,
-  ' On '  =>
-    '¿ª' ,
-  ' Off '  =>
-    '¹Ø' ,
-  ' Player Names '  =>
-    'Íæ¼ÒÃû³Æ' ,
-  ' Players Per Team '  =>
-    '¸÷¶ÓÈËÊý' ,
-  ' Registration Type '  =>
-    '×¢²áÀà±ð' ,
-  ' Strong Passwords '  =>
-    'ÔöÇ¿Ê½ÃÜÂë' ,
-  ' Team Selection '  =>
-    '¶ÓÎéÑ¡Ôñ' ,
-  ' Game '  =>
-    'ÓÎÏ·' ,
-  ' Scoring '  =>
-    '¼Ç·Ö°å' ,
-  ' Progressive Cycle (s) '  =>
-    '¼Æ·Ö°æ¸üÐÂÆµÂÊ(Ãë) ' ,
-  ' Refresh Gameboard '  =>
-    '¼Ç·Ö°åÖØÕû' ,
-  ' Default Bonus '  =>
-    'Ô¤ÉèºìÀû' ,
-  ' Bases Cycle (s) '  =>
-    '»ùµØÕ¼Áì¼Æ·Ö¸üÐÂÆµÂÊ(Ãë) ' ,
-  ' Default Bonus Dec '  =>
-    'Ô¤ÉèºìÀûËðºÄ' ,
-  ' Timer '  =>
-    '¼ÆÊ±Æ÷' ,
-  ' Server Time '  =>
-    'ËÅ·þÆ÷Ê±¼ä' ,
-  ' Game Duration '  =>
-    'ÓÎÏ·Ê±¼ä' ,
-  ' Begin Time '  =>
-    '¿ªÊ¼Ê±¼ä' ,
-  ' Expected End Time '  =>
-    'Ô¤¹À½áÊøÊ±¼ä' ,
-  ' Internationalization '  =>
-    '¹ú¼Ê»¯' ,
-  ' Language '  =>
-    'ÓïÑÔ' ,
-  ' Branding '  =>
-    'Æ·ÅÆ' ,
-  ' Custom Logo '  =>
-    '×Ô¶¨Òå»Õ±ê' ,
-  ' Custom Text '  =>
-    '×Ô¶¨ÒåÎÄ±¾' ,
-  ' DELETE '  =>
-    'É¾³ý' ,
-  ' Delete '  =>
-    'É¾³ý' ,
-  ' No Announcements '  =>
-    'ÎÞ¹«¸æ' ,
-  ' Game Controls '  =>
-    'ÓÎÏ·¿ØÖÆ' ,
-  ' Write New Announcement here '  =>
-    'ÔÚ´ËÐÂÔö¹«¸æ' ,
-  ' Create '  =>
-    '½¨Á¢' ,
-  ' General '  =>
-    'Ò»°ã' ,
-  ' Back Up Database '  =>
-    '×ÊÁÏ¿â±¸·Ý' ,
-  ' Export Full Game '  =>
-    '»ã³öÓÎÏ·½ø¶È' ,
-  ' Import Full Game '  =>
-    '»ãÈëÓÎÏ·½ø¶È' ,
-  ' Import Teams '  =>
-    '»ãÈë¶ÓÎé×ÊÑ¶' ,
-  ' Export Teams '  =>
-    '»ã³ö¶ÓÎé×ÊÑ¶' ,
-  ' Import Logos '  =>
-    '»ãÈëËùÓÐ±êÖ¾' ,
-  ' Export Logos '  =>
-    '»ã³öËùÓÐ±êÖ¾' ,
-  ' Import Levels '  =>
-    '»ãÈëËùÓÐ¹Ø¿¨' ,
-  ' Export Levels '  =>
-    '»ã³öËùÓÐ¹Ø¿¨' ,
-  ' Import Categories '  =>
-    '»ãÈëËùÓÐÀà±ð' ,
-  ' Export Categories '  =>
-    '»ã³öËùÓÐÀà±ð' ,
-  ' Levels '  =>
-    '¹Ø¿¨' ,
-  ' New Quiz Level '  =>
-    'ÐÂÔö²âÑéÐÍ¹Ø¿¨' ,
-  ' Title '  =>
-    '±êÌâ' ,
-  ' Question '  =>
-    'ÎÊÌâ' ,
-  ' Level title '  =>
-    '¹Ø¿¨±êÌâ' ,
-  ' Quiz question '  =>
-    '²âÑéÎÊÌâ' ,
-  ' Country '  =>
-    '¹ú¼Ò' ,
-  ' Answer '  =>
-    '´ð°¸' ,
-  ' Points '  =>
-    '·ÖÊý' ,
-  ' Hint '  =>
-    'ÌáÊ¾' ,
-  ' Hint Penalty '  =>
-    'ÌáÊ¾³Í·£' ,
-  ' EDIT '  =>
-    'ÐÞ¸Ä' ,
-  ' All Quiz Levels '  =>
-    'ËùÓÐ²âÑéÐÍ¹Ø¿¨' ,
-  ' Filter By: '  =>
-    '¹ýÂËÑ¡Ïî£º' ,
-  ' All Status '  =>
-    'ËùÓÐ×´Ì¬' ,
-  ' Enabled '  =>
-    '¿ªÆô×´Ì¬' ,
-  ' Disabled '  =>
-    '¹Ø±Õ×´Ì¬' ,
-  ' Quiz Level '  =>
-    '²âÑéÐÍ¹Ø¿¨' ,
-  ' Show Answer '  =>
-    'ÏÔÊ¾´ð°¸' ,
-  ' Bonus '  =>
-    'ºìÀû' ,
-  ' -Dec '  =>
-    ' -Dec ' ,
-  ' Save '  =>
-    '´¢´æ' ,
-  ' Quiz Management '  =>
-    '²âÑé¹ÜÀí' ,
-  ' Add Quiz Level '  =>
-    'Ôö¼Ó²âÑéÐÍ¹Ø¿¨' ,
-  ' New Flag Level '  =>
-    'ÐÂÔöFlagÐÍ¹Ø¿¨' ,
-  ' Description '  =>
-    'ÐðÊö' ,
-  ' Level description '  =>
-    '¹Ø¿¨ÐðÊö' ,
-  ' Category '  =>
-    'Àà±ð' ,
-  ' Flag '  =>
-    'Æì±ê' ,
-  ' flag '  =>
-    'Æì±ê' ,
-  ' All Flag Levels '  =>
-    'ËùÓÐÆì±êÐÍ¹Ø¿¨' ,
-  ' New Attachment: '  =>
-    'ÐÂÔö¸½¼þ£º' ,
-  ' Attachment '  =>
-    '¸½¼þ' ,
-  ' Link '  =>
-    'Á¬½á' ,
-  ' New Link: '  =>
-    'ÐÂÔöÁ¬½á£º' ,
-  ' Flag Level '  =>
-    'Æì±ê¹Ø¿¨' ,
-  ' Categories '  =>
-    'ËùÓÐÀà±ð' ,
-  ' + Attachment '  =>
-    ' +¸½¼þ' ,
-  ' + Link '  =>
-    ' +Á¬½á' ,
-  ' Flags Management '  =>
-    'Æì±ê¹ÜÀí' ,
-  ' Add Flag Level '  =>
-    'Ôö¼ÓÆì±êÐÍ¹Ø¿¨' ,
-  ' New Base Level '  =>
-    'ÐÂÔö»ùµØ¹Ø¿¨' ,
-  ' Keep Points '  =>
-    '±£ÁôµÃ·Ö' ,
-  ' Capture points '  =>
-    '¶áÈ¡µÃ·Ö' ,
-  ' All Base Levels '  =>
-    'ËùÓÐ»ùµØ¹Ø¿¨' ,
-  ' Base Level '  =>
-    '»ùµØ¹Ø¿¨' ,
-  ' Bases Management '  =>
-    '»ùµØ¹ÜÀí' ,
-  ' Add Base Level '  =>
-    'Ôö¼Ó»ùµØ¹Ø¿¨' ,
-  ' New Category '  =>
-    'ÐÂÔöÀà±ð' ,
-  ' Category: '  =>
-    'Àà±ð£º' ,
-  ' Categories Management '  =>
-    'Àà±ð¹ÜÀí' ,
-  ' Add Category '  =>
-    'Ôö¼ÓÀà±ð' ,
-  ' All Countries '  =>
-    'ËùÓÐ¹ú¼Ò' ,
-  ' In Use '  =>
-    'Ê¹ÓÃÖÐ' ,
-  ' In use '  =>
-    'Ê¹ÓÃÖÐ' ,
-  ' Not Used '  =>
-    'Î´Ê¹ÓÃ' ,
-  ' Yes '  =>
-    'ÊÇ' ,
-  ' No '  =>
-    '·ñ' ,
-  ' ISO Code '  =>
-    ' ISO´úÂë' ,
-  ' Countries Management '  =>
-    '¹ú¼Ò¹ÜÀí' ,
-  ' No Team Names '  =>
-    'Ã»ÓÐ¶ÓÎéÃû³Æ' ,
-  ' time '  =>
-    'Ê±¼ä' ,
-  ' type '  =>
-    'ÀàÐÍ' ,
-  ' pts '  =>
-    'µÃ·Ö' ,
-  ' Level '  =>
-    '¹Ø¿¨' ,
-  ' level '  =>
-    '¹Ø¿¨' ,
-  ' No Scores '  =>
-    'Ã»ÓÐ·ÖÊý' ,
-  ' Attempt '  =>
-    '³¢ÊÔ' ,
-  ' No Failures '  =>
-    'Ã»ÓÐ´íÎó' ,
-  ' Team '  =>
-    '¶ÓÎé' ,
-  ' team '  =>
-    '¶ÓÎé' ,
-  ' Names '  =>
-    'Ãû³Æ' ,
-  ' Scores '  =>
-    '·ÖÊý' ,
-  ' Failures '  =>
-    '´íÎó' ,
-  ' New Team '  =>
-    'ÐÂÔö¶ÓÎé' ,
-  ' Team Logo '  =>
-    '¶ÓÎé±êÖ¾' ,
-  ' Selected Logo: '  =>
-    'ÒÑÑ¡ÔñµÄ±êÖ¾: ' ,
-  ' Select Logo '  =>
-    'Ñ¡Ôñ±êÖ¾' ,
-  ' All Teams '  =>
-    'ËùÓÐ¶ÓÎé' ,
-  ' Protected '  =>
-    'ÒÑ±£»¤' ,
-  ' Score '  =>
-    '·ÖÊý' ,
-  ' Change Password '  =>
-    'ÃÜÂë±ä¸ü' ,
-  ' Admin Level '  =>
-    '¹ÜÀíÔ±µÈ¼¶' ,
-  ' Visibility '  =>
-    '¶ÓÎé¿É¼û' ,
-  ' Team Management '  =>
-    '¶ÓÎé¹ÜÀí' ,
-  ' Add Team '  =>
-    'Ôö¼Ó¶ÓÎé' ,
-  ' None '  =>
-    'ÎÞ' ,
-  ' Logo Name '  =>
-    '±êÖ¾Ãû³Æ' ,
-  ' Logo Management '  =>
-    '±êÖ¾¹ÜÀí' ,
-  ' Session '  =>
-    '»ØºÏ' ,
-  ' Cookie '  =>
-    ' Cookie ' ,
-  ' Creation Time '  =>
-    '½¨Á¢Ê±¼ä' ,
-  ' Last Access '  =>
-    '×îºóµÇÈë' ,
-  ' Last Page Access '  =>
-    '×îºó½Ó´¥Ò³Ãæ' ,
-  ' Data '  =>
-    '×ÊÑ¶' ,
-  ' Sessions '  =>
-    '»ØºÏ' ,
-  ' entry '  =>
-    'ÏîÄ¿' ,
-  ' No Entries '  =>
-    'ÎÞÈÎºÎÏîÄ¿' ,
-  ' Game Logs '  =>
-    'ÓÎÏ·¼ÇÂ¼' ,
-  ' Game Logs Timeline '  =>
-    'ÓÎÏ·¼ÇÂ¼Ê±¼äÖá' ,
-  ' End Game '  =>
-    '½áÊøÓÎÏ·' ,
-  ' Begin Game '  =>
-    '¿ªÊ¼ÓÎÏ·' ,
-  ' Game Admin '  =>
-    'ÓÎÏ·¹ÜÀíÔ±' ,
-  ' Controls '  =>
-    '¿ØÖÆ' ,
-  ' Quiz '  =>
-    '²âÑé' ,
-  ' Flags '  =>
-    'Æì±ê' ,
-  ' Bases '  =>
-    '»ùµØ' ,
-  ' Countries '  =>
-    '¹ú¼Ò' ,
-  ' Logos '  =>
-    '±êÖ¾' ,
-  // Translations for inc/* and inc/gameboard/*
-  ' captured '  =>
-    '¶áµÃ' ,
-  ' Status '  =>
-    '×´Ì¬' ,
-  ' Completed '  =>
-    'ÒÑÍê³É' ,
-  ' Remaining '  =>
-    'Ê£Óà' ,
-  ' Start '  =>
-    '¿ªÊ¼' ,
-  ' End '  =>
-    '½áÊø' ,
-  ' Rank '  =>
-    'ÅÅÃû' ,
-  ' pts '  =>
-    'µÃ·Ö' , // points
-  ' Your Rank '  =>
-    'ÄúµÄÅÅÃû' ,
-  ' Your Score '  =>
-    'ÄúµÄ·ÖÊý' ,
-  ' Everyone '  =>
-    'Ã¿¸öÈË' ,
-  ' Your Team '  =>
-    'ÄúµÄ¶ÓÎé' ,
-  ' Captured '  =>
-    '¶áµÃ' ,
-  ' Initiating '  =>
-    '³õÊ¼»¯' ,
-  ' run : > boot_sequence '  =>
-    '½ø¶È£º> boot_sequence ' ,
-  ' Extracting '  =>
-    '´¦ÀíÖÐ' ,
-  // Translations for Utils.php's time_ago() function
-  ' just now '  =>
-    '¸Õ¸Õ' ,
-  ' d '  =>
-    'Ìì' , // day
-  ' hr '  =>
-    'Ð¡Ê±' , // hour
-  ' min '  =>
-    '·ÖÖÓ' , // minute
-  ' sec '  =>
-    'Ãë' , // second
-  ' ds '  =>
-    'Ìì' , // days
-  ' hrs '  =>
-    'Ð¡Ê±' , // hours
-  ' mins '  =>
-    '·ÖÖÓ' , // minutes
-  ' secs '  =>
-    'Ãë' , // seconds
-  ' ago '  =>
-    'Ç°' ,
-  // Translations for ModalControllers
-  ' begin_ '  =>
-    '¿ªÊ¼_ ' ,
-  ' Are you sure you want to kick off the game? Logs will be cleared and progressive scoreboard will start '  =>
-    'ÄúÈ·¶¨Òª¿ªÊ¼ÓÎÏ·ÁËÂð£¿¼ÇÂ¼½«»á±»Çå¿ÕÇÒ¼Ç·Ö°å½«»á¿ªÊ¼¼ÇÂ¼¡£' ,
-  ' end_ '  =>
-    '½áÊø_ ' ,
-  ' Are you sure you want to finish the current game? '  =>
-    'ÄúÈ·¶¨ÒªÁ¢¼´½áÊøÏÖÔÚµÄÓÎÏ·£¿' ,
-  ' Are you sure you want to logout from the game? '  =>
-    'ÄúÈ·¶¨ÒªÁ¢¼´µÇ³ö£¿' ,
-  ' Saved '  =>
-    'ÒÑ´¢´æ' ,
-  ' All changes have been successfully saved. '  =>
-    'ËùÓÐ±ä¸üÒÑ³É¹¦´¢´æ¡£' ,
-  ' Error '  =>
-    '´íÎó' ,
-  ' Sorry your form was not saved. Please correct the all errors and save again. '  =>
-    'ºÜ±§Ç¸ÎÒÃÇÎÞ·¨´¢´æÄúµÄ±íµ¥¡£ÇëÐÞÕýËùÓÐ´íÎó²¢ÔÙ´Î³¢ÊÔ¡£' ,
-  ' cancel_ '  =>
-    'È¡Ïû_ ' ,
-  ' Are you sure you want to cancel? You have unsaved changes that will be reverted. '  =>
-    'ÄúÈ·¶¨ÒªÈ¡Ïû£¿Î´´¢´æµÄ±ä¸ü½«»á»Ø¸´ÖÁÉÏ´ÎµÄ×´Ì¬¡£' ,
-  ' choose_logo '  =>
-    'Ñ¡Ôñ±êÖ¾' ,
-  ' captured_ '  =>
-    '¶áµÃ_ ' ,
-  ' flag_owner_ '  =>
-    'Æì±ê_ÓµÓÐÕß_ ' ,
-  ' INACTIVE '  =>
-    'Î´Æô¶¯' ,
-  ' PTS '  =>
-    '·Ö' ,
-  ' category '  =>
-    'Àà±ð' ,
-  ' capture_ '  =>
-    '¶áÈ¡_ ' ,
-  ' Insert your answer '  =>
-    'ÊäÈëÄúµÄ´ð°¸' ,
-  ' Request Hint '  =>
-    'ÒªÇóÌáÊ¾' ,
-  ' Submit '  =>
-    'ËÍ³ö' ,
-  ' hint_ '  =>
-    'ÌáÊ¾_ ' ,
-  ' first_capture '  =>
-    'µÚÒ»µÎÑª' ,
-  ' completed_by '  =>
-    'ÒÑÍê³É£º' ,
-  ' scoreboard_ '  =>
-    '¼Ç·Ö°å_ ' ,
-  ' filter_ '  =>
-    'É¸Ñ¡_ ' ,
-  ' rank_ '  =>
-    'ÅÅÃû_ ' ,
-  ' team_name_ '  =>
-    '¶ÓÎéÃû³Æ_ ' ,
-  ' quiz_pts_ '  =>
-    '²âÑéÐÍ_µÃ·Ö_ ' ,
-  ' flag_pts_ '  =>
-    'Æì±êÐÍ_µÃ·Ö_ ' ,
-  ' base_pts_ '  =>
-    '»ùµØÐÍ_µÃ·Ö_ ' ,
-  ' total_pts_ '  =>
-    '×Ü_µÃ·Ö_ ' ,
-  ' team_ '  =>
-    '¶ÓÎé_ ' ,
-  ' team_members '  =>
-    '¶ÓÎé_³ÉÔ±' ,
-  ' base_pts '  =>
-    '»ùµØÐÍ_µÃ·Ö' ,
-  ' quiz_pts '  =>
-    '²âÑéÐÍ_µÃ·Ö' ,
-  ' flag_pts '  =>
-    'Æì±êÐÍ_µÃ·Ö_ ' ,
-  ' total_pts '  =>
-    '×Ü_µÃ·Ö' ,
-  ' Tool bars are located on all edges of the gameboard. Tap a category to expand and close each tool bar. '  =>
-    '¹¤¾ßÁÐÎ»ÂäÓÚÓÎÏ·°æÍ¼µÄËÄÖÜ¡£µã»÷ÈÎÒ»·ÖÀàÒÔÕ¹¿ª»ò¹Ø±Õ¸÷¹¤¾ßÁÐ¡£' ,
-  ' Tool_Bars '  =>
-    '¹¤¾ß_ÁÐ' ,
-  ' Tap the "Game Clock" to keep track of time during gameplay. Don't let time get the best of you. '  =>
-    'µã»÷"ÓÎÏ·Ê±¼ä"ÒÔËæÊ±×·×ÙÊ£ÓàÊ±¼ä¡£±ð°Ü¸øÊ±¼äÁË¡£' ,
-  ' Game_Clock '  =>
-    'ÓÎÏ·_Ê±¼ä' ,
-  ' Countries marked with an '  =>
-    'ÓÐ×Å' ,
-  ' are captured by you. '  =>
-    '·ûºÅ´ú±íÄú¶áµÃµÄ¹ú¼Ò¡£' ,
-  ' are owned by others. '  =>
-    '·ûºÅ´ú±í±»ÆäËûÈËÕ¼ÓÐµÄ¹ú¼Ò¡£' ,
-  ' Captures '  =>
-    '¶áµÃ' ,
-  ' Tap Plus[+] to Zoom In. Tap Minus[-] to Zoom Out. '  =>
-    'µã»÷+ [+]ÒÔ·Å´ó.µã»÷- [-]ÒÔËõÐ¡¡£' ,
-  ' Click and Drag to move left, right, up and down. '  =>
-    'µã»÷²¢ÍÏÒ·ÒÔÒÆ¶¯°æÍ¼¡£' ,
-  ' Zoom '  =>
-    'Ëõ·Å' ,
-  ' Tap Forward Slash [/] to activate computer commands. A list of commands can be found under "Rules". '  =>
-    'µã»÷/ [/]ÒÔÖ´ÐÐµçÄÔÖ¸Áî¡£ÔÚ"¹æÔò"µ×ÏÂÕÒµ½¿ÉÓÃµÄÖ¸Áî¡£' ,
-  ' Command_Line '  =>
-    'Ö¸Áî_ÐÐ' ,
-  ' Click "Nav" to access main navigation links like Rules of Play, Registration, Blog, Jobs & more. '  =>
-    'µã»÷"µ¼º½"ÒÔ»ñÈ¡¸ü¶à×ÊÑ¶£¬ÀýÈç£ºÓÎÏ·¹æÔò¡¢×¢²á¡¢²¿Âä¸ñ¡¢¹¤×÷»ò¸ü¶à¡£' ,
-  ' Track your competition by clicking "scoreboard" to access real-time game statistics and graphs. '  =>
-    'µã»÷"¼Ç·Ö°å"ÒÔ×·×ÙÄúÄ¿Ç°ÓÎÏ·µÄ½ø¶È£¬²¢²é¿´¼´Ê±µÄÍ³¼Æ×ÊÁÏÓëÍ¼ÐÎ¡£' ,
-  ' Have fun, be the best and conquer the world. '  =>
-    '³ÉÎª×î°ôµÄÕ÷·þÕß°É£¬×£Óä¿ì¡£' ,
-  ' Game_On '  =>
-    'ÓÎÏ·_¿ªÊ¼' ,
-  ' tutorial_ '  =>
-    '½ÌÑ§_ ' ,
-  ' Next '  =>
-    'ÏÂÒ»²½' ,
-  ' Skip to play '  =>
-    'Ìø¹ý½ÌÑ§' ,
-  ' Powered By Facebook '  =>
-    ' Powered By Facebook ' ,
-  ' Active Directory / LDAP '  =>
-    ' Active Directory / LDAP ' ,
-  ' LDAP Server '  =>
-    ' LDAP·þÎñÆ÷' ,
-  ' LDAP Port '  =>
-    ' LDAP¶Ë¿Ú' ,
-  ' LDAP Domain '  =>
-    ' LDAPÓò' ,
+$translations = array(
+  'date and time format' =>
+    'H:i:s D m/d/Y', //used by date() function
+  //Translations for IndexController
+  'Facebook CTF' =>
+    'Facebook CTF',
+  'Conquer the world' =>
+    'å¾æœä¸–ç•Œ',
+  'Play' =>
+    'é–‹å§‹',
+  'Welcome to the Facebook Capture the Flag Competition. By clicking "Play," you will be entered into the official CTF challenge. Good luck in your conquest.' =>
+    'æ­¡è¿Žä¾†åˆ° Facebook Capture the Flag ç«¶è³½ã€‚ç«‹åˆ»é»žæ“Š "é–‹å§‹" é€²å…¥æ­£å¼çš„ CTF æŒ‘æˆ°ã€‚ç¥å¾é€”æ„‰å¿«ã€‚',
+  'Get ready for the CTF to start and access the gameboard now!' =>
+    'ç«‹å³æŸ¥çœ‹éŠæˆ²ç‰ˆåœ–ä¸¦æº–å‚™é–‹å§‹é€²è¡Œ CTFï¼',
+  'Gameboard' =>
+    'éŠæˆ²ç‰ˆåœ–',
+  'Register Team' =>
+    'è¨»å†ŠéšŠä¼',
+  'Get ready for the CTF to start and register your team now!' =>
+    'ç«‹å³è¨»å†ŠéšŠä¼ä¸¦æº–å‚™é–‹å§‹é€²è¡Œ CTFï¼',
+  'Login' =>
+    'ç™»å…¥',
+  'Soon' =>
+    'å³å°‡',
+  'Upcoming Game' =>
+    'å¾…é€²è¡Œ',
+  '_days' =>
+    '_å¤©',
+  '_hours' =>
+    '_å°æ™‚',
+  '_minutes' =>
+    '_åˆ†é˜',
+  '_seconds' =>
+    '_ç§’',
+  'Official CTF Rules' =>
+    'æ­£å¼ CTF è¦å‰‡',
+  'Following actions are prohibited, unless explicitly told otherwise by event Admins.' =>
+    'é™¤éžç®¡ç†å“¡æ˜Žç¢ºèªªæ˜Žï¼Œå¦å‰‡ç¦æ­¢ä»¥ä¸‹çš„è¡Œç‚ºã€‚',
+  'Rule' =>
+    'è¦å‰‡',
+  'Cooperation' =>
+    'äº’åŠ©',
+  'No cooperation between teams with independent accounts. Sharing of keys or providing revealing hints to other teams is cheating, donâ€™t do it.' =>
+    'éšŠä¼ä¹‹é–“ç¦æ­¢äº’åŠ©çš„è¡Œç‚ºã€‚è¬¹è¨˜ï¼Œåˆ†äº«é‡‘é‘°æˆ–æ˜¯æä¾›æç¤ºçµ¦å…¶å®ƒçš„éšŠä¼å°‡è¢«è¦–ç‚ºä½œå¼Šï¼',
+  'Attacking Scoreboard' =>
+    'æ”»æ“Šè¨˜åˆ†æ¿',
+  'No attacking the competition infrastructure. If bugs or vulns are found, please alert the competition organizers immediately.' =>
+    'ç¦æ­¢æ”»æ“Šç«¶è³½ç›¸é—œçš„åŸºç¤Žè¨­æ–½ã€‚å¦‚ç™¼ç¾éŒ¯èª¤æˆ–æ˜¯æ¼æ´žï¼Œè«‹ç«‹å³é€šå ±ç®¡ç†å“¡ã€‚',
+  'Sabotage' =>
+    'å¦¨å®³',
+  'Absolutely no sabotaging of other competing teams, or in any way hindering their independent progress.' =>
+    'å¼·çƒˆç¦æ­¢éšŠä¼é–“è§£é¡Œé€²åº¦ä¹‹å¦¨å®³æˆ–é˜»æ’“ã€‚',
+  'Bruteforcing' =>
+    'æš´åŠ›æ”»æ“Š',
+  'No brute forcing of challenge flag/ keys against the scoring site.' =>
+    'ç¦æ­¢ä»¥æš´åŠ›æ–¹å¼å˜—è©¦å–å¾—è¨˜åˆ†ç¶²ç«™é‡‘é‘°ã€‚',
+  'Denial Of Service' =>
+    'é˜»æ–·æœå‹™æ”»æ“Š',
+  'DoSing the CTF platform or any of the challenges is forbidden.' =>
+    'ç¦æ­¢å° CTF å¹³å°æˆ–é¡Œç›®å¯¦è¡Œé˜»æ–·æœå‹™æ”»æ“Šã€‚',
+  'Legal' =>
+    'æ³•å¾‹',
+  'Disclaimer' =>
+    'å…è²¬è²æ˜Ž',
+  'By participating in the contest, you agree to release Facebook and its employees, and the hosting organization from any and all liability, claims or actions of any kind whatsoever for injuries, damages or losses to persons and property which may be sustained in connection with the contest. You acknowledge and agree that Facebook et al is not responsible for technical, hardware or software failures, or other errors or problems which may occur in connection with the contest.' =>
+    'ç•¶æ‚¨åƒèˆ‡æ¯”è³½æ™‚ï¼Œæ‚¨åŒæ„æ”¾æ£„ä»»ä½•åŠæ‰€æœ‰å° Facebook å’Œå…¶å“¡å·¥ä»¥åŠè¨—ç®¡çµ„ç¹”åœ¨ç«¶è³½é€£ç·šæœŸé–“å°äººèº«å’Œè²¡ç”¢çš„ä»»ä½•æå¤±æˆ–æå®³ç”¢ç”Ÿçš„èˆ‡å…¶ç›¸é—œçš„ä»»ä½•æå®³æˆ–æå¤±è²¬ä»»çš„ç´¢è³ ã€‚',
+  'If you have any questions about what is or is not allowed, please ask an organizer.' =>
+    'å¦‚æžœæ‚¨å°ä¸Šè¿°å•é¡Œæœ‰ç–‘æ…®ï¼Œè«‹ç«‹å³å‘è¨—ç®¡çµ„ç¹”åæ˜ ã€‚',
+  'Have fun!' =>
+    'çŽ©å¾—æ„‰å¿«ï¼',
+  'Name' =>
+    'å§“å',
+  'Email' =>
+    'ä¿¡ç®±',
+  'Token' =>
+    'Token',
+  'Team Registration' =>
+    'éšŠä¼è¨»å†Š',
+  'Team Name' =>
+    'éšŠä¼åç¨±',
+  'Password' =>
+    'å¯†ç¢¼',
+  'Choose an Emblem' =>
+    'é¸æ“‡ä¸€å€‹æ¨™èªŒ',
+  'or upload your own' =>
+    'æˆ–ä¸Šå‚³è‡ªå·±çš„',
+  'Clear your custom emblem to use a default emblem.' =>
+    'æ¸…é™¤æ‚¨çš„è‡ªå®šç¾©æœƒå¾½ä»¥ä½¿ç”¨é»˜èªæœƒå¾½ã€‚',
+  'Password is too simple' =>
+    'å¯†ç¢¼å¤ªç°¡å–®äº†',
+  'Sign Up' =>
+    'è¨»å†Š',
+  'Register to play Capture The Flag here. Once you have registered, you will be logged in.' =>
+    'è¨»å†Šä»¥é€²è¡Œ Capture The Flag ã€‚è¨»å†Šå®Œç•¢æ™‚ï¼Œæœƒå°‡æ‚¨è‡ªå‹•ç™»å…¥ã€‚',
+  'Not Available' =>
+    'æœå‹™ä¸å¯ç”¨',
+  'Team Registration will be open soon, stay tuned!' =>
+    'éšŠä¼è¨»å†Šå³å°‡é–‹æ”¾ï¼Œè«‹éœå€™ä½³éŸ³ã€‚',
+  'Try Again' =>
+    'å†è©¦ä¸€é',
+  'Select' =>
+    'é¸æ“‡',
+  'Team Login' =>
+    'éšŠä¼ç™»å…¥',
+  'Please login here. If you have not registered, you may do so by clicking "Sign Up" below. ' =>
+    'è«‹ç™»å…¥ã€‚å¦‚æžœæ‚¨å°šæœªè¨»å†Šï¼Œè«‹é»žæ“Šä¸‹æ–¹çš„ "è¨»å†Š" ã€‚',
+  'Team Login will be open soon, stay tuned!' =>
+    'éšŠä¼ç™»å…¥å³å°‡é–‹æ”¾ï¼Œè«‹éœå€™ä½³éŸ³ã€‚',
+  'ERROR' =>
+    'éŒ¯èª¤',
+  'Start Over' =>
+    'é‡æ–°ä¾†éŽ',
+  'Window is too small' =>
+    'è¦–çª—éŽå°',
+  'For the best CTF experience, please make window size bigger.' =>
+    'ç‚ºäº†é«”é©—æœ€ä½³çš„ CTF éŠæˆ²ï¼Œè«‹æ”¾å¤§è¦–çª—ã€‚',
+  'Thank you.' =>
+    'è¬è¬ã€‚',
+  'Logout' =>
+    'ç™»å‡º',
+  'Registration' =>
+    'è¨»å†Š',
+  'Play CTF' =>
+    'é€²è¡Œ CTF',
+  'Rules' =>
+    'è¦å‰‡',
+  //Translations for GameboardController
+  'Admin' =>
+    'å¾Œå°',
+  'ADMIN' =>
+    'å¾Œå°',
+  'Navigation' =>
+    'å°Žèˆª',
+  'View Mode' =>
+    'è§€çœ‹æ¨¡å¼',
+  'View mode' =>
+    'è§€çœ‹æ¨¡å¼',
+  'Tutorial' =>
+    'æ•™å­¸',
+  'Scoreboard' =>
+    'è¨˜åˆ†æ¿',
+  'You' =>
+    'æ‚¨',
+  'Others' =>
+    'å…¶ä»–',
+  'All' =>
+    'æ‰€æœ‰',
+  'Leaderboard' =>
+    'ç©åˆ†æ¦œ',
+  'Announcements' =>
+    'å…¬å‘Š',
+  'Teams' =>
+    'éšŠä¼',
+  'Filter' =>
+    'ç¯©é¸',
+  'Activity' =>
+    'æ´»å‹•',
+  'Game Clock' =>
+    'éŠæˆ²æ™‚é–“',
+  //Translations for AdminController
+  'Auto' =>
+    'è‡ªå‹•',
+  'All Categories' =>
+    'æ‰€æœ‰é¡žåˆ¥',
+  'Open' =>
+    'é–‹æ”¾å¼',
+  'Tokenized' =>
+    'Tokenå¼',
+  'Hour' =>
+    'å°æ™‚',
+  'Hours' =>
+    'å°æ™‚',
+  'Used by' =>
+    'å·²ä½¿ç”¨',
+  'Used By' =>
+    'å·²ä½¿ç”¨',
+  'Available' =>
+    'å¯ç”¨çš„',
+  'Registration Tokens' =>
+    'è¨»å†Š Tokens',
+  'Create More' =>
+    'å»ºç«‹æ›´å¤š',
+  'Export Available' =>
+    'åŒ¯å‡ºå¯ç”¨',
+  'Not started yet' =>
+    'å°šæœªé–‹å§‹',
+  'Configuration' =>
+    'è¨­å®š',
+  'Tokens' =>
+    'Tokens',
+  'Game Configuration' =>
+    'éŠæˆ²è¨­å®š',
+  'OK' =>
+    'æ­£å¸¸',
+  'status_' =>
+    'ç‹€æ…‹_',
+  'On' =>
+    'é–‹',
+  'Off' =>
+    'é—œ',
+  'Player Names' =>
+    'çŽ©å®¶åç¨±',
+  'Players Per Team' =>
+    'å„éšŠäººæ•¸',
+  'Registration Type' =>
+    'è¨»å†Šé¡žåˆ¥',
+  'Strong Passwords' =>
+    'å¢žå¼·å¼å¯†ç¢¼',
+  'Team Selection' =>
+    'éšŠä¼é¸æ“‡',
+  'Game' =>
+    'éŠæˆ²',
+  'Scoring' =>
+    'è¨˜åˆ†æ¿',
+  'Progressive Cycle (s)' =>
+    'è¨ˆåˆ†ç‰ˆæ›´æ–°é »çŽ‡ (ç§’)',
+  'Refresh Gameboard' =>
+    'è¨˜åˆ†æ¿é‡æ•´',
+  'Default Bonus' =>
+    'é è¨­ç´…åˆ©',
+  'Bases Cycle (s)' =>
+    'åŸºåœ°ä½”é ˜è¨ˆåˆ†æ›´æ–°é »çŽ‡ (ç§’)',
+  'Default Bonus Dec' =>
+    'é è¨­ç´…åˆ©æè€—',
+  'Timer' =>
+    'è¨ˆæ™‚å™¨',
+  'Server Time' =>
+    'ä¼ºæœå™¨æ™‚é–“',
+  'Game Duration' =>
+    'éŠæˆ²æ™‚é–“',
+  'Begin Time' =>
+    'é–‹å§‹æ™‚é–“',
+  'Expected End Time' =>
+    'é ä¼°çµæŸæ™‚é–“',
+  'Internationalization' =>
+    'åœ‹éš›åŒ–',
+  'Language' =>
+    'èªžè¨€',
+  'Branding' =>
+    'å“ç‰Œ',
+  'Custom Logo' =>
+    'è‡ªå®šç¾©å¾½æ¨™',
+  'Custom Text' =>
+    'è‡ªå®šç¾©æ–‡æœ¬',
+  'DELETE' =>
+    'åˆªé™¤',
+  'Delete' =>
+    'åˆªé™¤',
+  'No Announcements' =>
+    'ç„¡å…¬å‘Š',
+  'Game Controls' =>
+    'éŠæˆ²æŽ§åˆ¶',
+  'Write New Announcement here' =>
+    'åœ¨æ­¤æ–°å¢žå…¬å‘Š',
+  'Create' =>
+    'å»ºç«‹',
+  'General' =>
+    'ä¸€èˆ¬',
+  'Back Up Database' =>
+    'è³‡æ–™åº«å‚™ä»½',
+  'Export Full Game' =>
+    'åŒ¯å‡ºéŠæˆ²é€²åº¦',
+  'Import Full Game' =>
+    'åŒ¯å…¥éŠæˆ²é€²åº¦',
+  'Import Teams' =>
+    'åŒ¯å…¥éšŠä¼è³‡è¨Š',
+  'Export Teams' =>
+    'åŒ¯å‡ºéšŠä¼è³‡è¨Š',
+  'Import Logos' =>
+    'åŒ¯å…¥æ‰€æœ‰æ¨™èªŒ',
+  'Export Logos' =>
+    'åŒ¯å‡ºæ‰€æœ‰æ¨™èªŒ',
+  'Import Levels' =>
+    'åŒ¯å…¥æ‰€æœ‰é—œå¡',
+  'Export Levels' =>
+    'åŒ¯å‡ºæ‰€æœ‰é—œå¡',
+  'Import Categories' =>
+    'åŒ¯å…¥æ‰€æœ‰é¡žåˆ¥',
+  'Export Categories' =>
+    'åŒ¯å‡ºæ‰€æœ‰é¡žåˆ¥',
+  'Levels' =>
+    'é—œå¡',
+  'New Quiz Level' =>
+    'æ–°å¢žæ¸¬é©—åž‹é—œå¡',
+  'Title' =>
+    'æ¨™é¡Œ',
+  'Question' =>
+    'å•é¡Œ',
+  'Level title' =>
+    'é—œå¡æ¨™é¡Œ',
+  'Quiz question' =>
+    'æ¸¬é©—å•é¡Œ',
+  'Country' =>
+    'åœ‹å®¶',
+  'Answer' =>
+    'ç­”æ¡ˆ',
+  'Points' =>
+    'åˆ†æ•¸',
+  'Hint' =>
+    'æç¤º',
+  'Hint Penalty' =>
+    'æç¤ºæ‡²ç½°',
+  'EDIT' =>
+    'ä¿®æ”¹',
+  'All Quiz Levels' =>
+    'æ‰€æœ‰æ¸¬é©—åž‹é—œå¡',
+  'Filter By:' =>
+    'éŽæ¿¾é¸é …ï¼š',
+  'All Status' =>
+    'æ‰€æœ‰ç‹€æ…‹',
+  'Enabled' =>
+    'é–‹å•Ÿç‹€æ…‹',
+  'Disabled' =>
+    'é—œé–‰ç‹€æ…‹',
+  'Quiz Level' =>
+    'æ¸¬é©—åž‹é—œå¡',
+  'Show Answer' =>
+    'é¡¯ç¤ºç­”æ¡ˆ',
+  'Bonus' =>
+    'ç´…åˆ©',
+  '-Dec' =>
+    '-Dec',
+  'Save' =>
+    'å„²å­˜',
+  'Quiz Management' =>
+    'æ¸¬é©—ç®¡ç†',
+  'Add Quiz Level' =>
+    'å¢žåŠ æ¸¬é©—åž‹é—œå¡',
+  'New Flag Level' =>
+    'æ–°å¢ž Flag åž‹é—œå¡',
+  'Description' =>
+    'æ•˜è¿°',
+  'Level description' =>
+    'é—œå¡æ•˜è¿°',
+  'Category' =>
+    'é¡žåˆ¥',
+  'Flag' =>
+    'æ——æ¨™',
+  'flag' =>
+    'æ——æ¨™',
+  'All Flag Levels' =>
+    'æ‰€æœ‰æ——æ¨™åž‹é—œå¡',
+  'New Attachment:' =>
+    'æ–°å¢žé™„ä»¶ï¼š',
+  'Attachment' =>
+    'é™„ä»¶',
+  'Link' =>
+    'é€£çµ',
+  'New Link:' =>
+    'æ–°å¢žé€£çµï¼š',
+  'Flag Level' =>
+    'æ——æ¨™é—œå¡',
+  'Categories' =>
+    'æ‰€æœ‰é¡žåˆ¥',
+  '+ Attachment' =>
+    '+ é™„ä»¶',
+  '+ Link' =>
+    '+ é€£çµ',
+  'Flags Management' =>
+    'æ——æ¨™ç®¡ç†',
+  'Add Flag Level' =>
+    'å¢žåŠ æ——æ¨™åž‹é—œå¡',
+  'New Base Level' =>
+    'æ–°å¢žåŸºåœ°é—œå¡',
+  'Keep Points' =>
+    'ä¿ç•™å¾—åˆ†',
+  'Capture points' =>
+    'å¥ªå–å¾—åˆ†',
+  'All Base Levels' =>
+    'æ‰€æœ‰åŸºåœ°é—œå¡',
+  'Base Level' =>
+    'åŸºåœ°é—œå¡',
+  'Bases Management' =>
+    'åŸºåœ°ç®¡ç†',
+  'Add Base Level' =>
+    'å¢žåŠ åŸºåœ°é—œå¡',
+  'New Category' =>
+    'æ–°å¢žé¡žåˆ¥',
+  'Category: ' =>
+    'é¡žåˆ¥ï¼š',
+  'Categories Management' =>
+    'é¡žåˆ¥ç®¡ç†',
+  'Add Category' =>
+    'å¢žåŠ é¡žåˆ¥',
+  'All Countries' =>
+    'æ‰€æœ‰åœ‹å®¶',
+  'In Use' =>
+    'ä½¿ç”¨ä¸­',
+  'In use' =>
+    'ä½¿ç”¨ä¸­',
+  'Not Used' =>
+    'æœªä½¿ç”¨',
+  'Yes' =>
+    'æ˜¯',
+  'No' =>
+    'å¦',
+  'ISO Code' =>
+    'ISO ä»£ç¢¼',
+  'Countries Management' =>
+    'åœ‹å®¶ç®¡ç†',
+  'No Team Names' =>
+    'æ²’æœ‰éšŠä¼åç¨±',
+  'time' =>
+    'æ™‚é–“',
+  'type' =>
+    'é¡žåž‹',
+  'pts' =>
+    'å¾—åˆ†',
+  'Level' =>
+    'é—œå¡',
+  'level' =>
+    'é—œå¡',
+  'No Scores' =>
+    'æ²’æœ‰åˆ†æ•¸',
+  'Attempt' =>
+    'å˜—è©¦',
+  'No Failures' =>
+    'æ²’æœ‰éŒ¯èª¤',
+  'Team' =>
+    'éšŠä¼',
+  'team' =>
+    'éšŠä¼',
+  'Names' =>
+    'åç¨±',
+  'Scores' =>
+    'åˆ†æ•¸',
+  'Failures' =>
+    'éŒ¯èª¤',
+  'New Team' =>
+    'æ–°å¢žéšŠä¼',
+  'Team Logo' =>
+    'éšŠä¼æ¨™èªŒ',
+  'Selected Logo:' =>
+    'å·²é¸æ“‡çš„æ¨™èªŒ:',
+  'Select Logo' =>
+    'é¸æ“‡æ¨™èªŒ',
+  'All Teams' =>
+    'æ‰€æœ‰éšŠä¼',
+  'Protected' =>
+    'å·²ä¿è­·',
+  'Score' =>
+    'åˆ†æ•¸',
+  'Change Password' =>
+    'å¯†ç¢¼è®Šæ›´',
+  'Admin Level' =>
+    'ç®¡ç†å“¡ç­‰ç´š',
+  'Visibility' =>
+    'éšŠä¼å¯è¦‹',
+  'Team Management' =>
+    'éšŠä¼ç®¡ç†',
+  'Add Team' =>
+    'å¢žåŠ éšŠä¼',
+  'None' =>
+    'ç„¡',
+  'Logo Name' =>
+    'æ¨™èªŒåç¨±',
+  'Logo Management' =>
+    'æ¨™èªŒç®¡ç†',
+  'Session' =>
+    'å›žåˆ',
+  'Cookie' =>
+    'Cookie',
+  'Creation Time' =>
+    'å»ºç«‹æ™‚é–“',
+  'Last Access' =>
+    'æœ€å¾Œç™»å…¥',
+  'Last Page Access' =>
+    'æœ€å¾ŒæŽ¥è§¸é é¢',
+  'Data' =>
+    'è³‡è¨Š',
+  'Sessions' =>
+    'å›žåˆ',
+  'entry' =>
+    'é …ç›®',
+  'No Entries' =>
+    'ç„¡ä»»ä½•é …ç›®',
+  'Game Logs' =>
+    'éŠæˆ²è¨˜éŒ„',
+  'Game Logs Timeline' =>
+    'éŠæˆ²è¨˜éŒ„æ™‚é–“è»¸',
+  'End Game' =>
+    'çµæŸéŠæˆ²',
+  'Begin Game' =>
+    'é–‹å§‹éŠæˆ²',
+  'Game Admin' =>
+    'éŠæˆ²ç®¡ç†å“¡',
+  'Controls' =>
+    'æŽ§åˆ¶',
+  'Quiz' =>
+    'æ¸¬é©—',
+  'Flags' =>
+    'æ——æ¨™',
+  'Bases' =>
+    'åŸºåœ°',
+  'Countries' =>
+    'åœ‹å®¶',
+  'Logos' =>
+    'æ¨™èªŒ',
+  //Translations for inc/* and inc/gameboard/*
+  'captured' =>
+    'å¥ªå¾—',
+  'Status' =>
+    'ç‹€æ…‹',
+  'Completed' =>
+    'å·²å®Œæˆ',
+  'Remaining' =>
+    'å‰©é¤˜',
+  'Start' =>
+    'é–‹å§‹',
+  'End' =>
+    'çµæŸ',
+  'Rank' =>
+    'æŽ’å',
+  'pts' =>
+    'å¾—åˆ†', //points
+  'Your Rank' =>
+    'æ‚¨çš„æŽ’å',
+  'Your Score' =>
+    'æ‚¨çš„åˆ†æ•¸',
+  'Everyone' =>
+    'æ¯å€‹äºº',
+  'Your Team' =>
+    'æ‚¨çš„éšŠä¼',
+  'Captured' =>
+    'å¥ªå¾—',
+  'Initiating' =>
+    'åˆå§‹åŒ–',
+  'run : > boot_sequence' =>
+    'é€²åº¦ï¼š> boot_sequence',
+  'Extracting' =>
+    'è™•ç†ä¸­',
+  //Translations for Utils.php's time_ago() function
+  'just now' =>
+    'å‰›å‰›',
+  'd' =>
+    'å¤©', //day
+  'hr' =>
+    'å°æ™‚', //hour
+  'min' =>
+    'åˆ†é˜', //minute
+  'sec' =>
+    'ç§’', //second
+  'ds' =>
+    'å¤©', //days
+  'hrs' =>
+    'å°æ™‚', //hours
+  'mins' =>
+    'åˆ†é˜', //minutes
+  'secs' =>
+    'ç§’', //seconds
+  'ago' =>
+    'å‰',
+  //Translations for ModalControllers
+  'begin_' =>
+    'é–‹å§‹_',
+  'Are you sure you want to kick off the game? Logs will be cleared and progressive scoreboard will start' =>
+    'æ‚¨ç¢ºå®šè¦é–‹å§‹éŠæˆ²äº†å—Žï¼Ÿè¨˜éŒ„å°‡æœƒè¢«æ¸…ç©ºä¸”è¨˜åˆ†æ¿å°‡æœƒé–‹å§‹è¨˜éŒ„ã€‚',
+  'end_' =>
+    'çµæŸ_',
+  'Are you sure you want to finish the current game?' =>
+    'æ‚¨ç¢ºå®šè¦ç«‹å³çµæŸç¾åœ¨çš„éŠæˆ²ï¼Ÿ',
+  'Are you sure you want to logout from the game?' =>
+    'æ‚¨ç¢ºå®šè¦ç«‹å³ç™»å‡ºï¼Ÿ',
+  'Saved' =>
+    'å·²å„²å­˜',
+  'All changes have been successfully saved.' =>
+    'æ‰€æœ‰è®Šæ›´å·²æˆåŠŸå„²å­˜ã€‚',
+  'Error' =>
+    'éŒ¯èª¤',
+  'Sorry your form was not saved. Please correct the all errors and save again.' =>
+    'å¾ˆæŠ±æ­‰æˆ‘å€‘ç„¡æ³•å„²å­˜æ‚¨çš„è¡¨å–®ã€‚è«‹ä¿®æ­£æ‰€æœ‰éŒ¯èª¤ä¸¦å†æ¬¡å˜—è©¦ã€‚',
+  'cancel_' =>
+    'å–æ¶ˆ_',
+  'Are you sure you want to cancel? You have unsaved changes that will be reverted.' =>
+    'æ‚¨ç¢ºå®šè¦å–æ¶ˆï¼Ÿæœªå„²å­˜çš„è®Šæ›´å°‡æœƒå›žå¾©è‡³ä¸Šæ¬¡çš„ç‹€æ…‹ã€‚',
+  'choose_logo' =>
+    'é¸æ“‡æ¨™èªŒ',
+  'captured_' =>
+    'å¥ªå¾—_',
+  'flag_owner_' =>
+    'æ——æ¨™_æ“æœ‰è€…_',
+  'INACTIVE' =>
+    'æœªå•Ÿå‹•',
+  'PTS' =>
+    'åˆ†',
+  'category' =>
+    'é¡žåˆ¥',
+  'capture_' =>
+    'å¥ªå–_',
+  'Insert your answer' =>
+    'è¼¸å…¥æ‚¨çš„ç­”æ¡ˆ',
+  'Request Hint' =>
+    'è¦æ±‚æç¤º',
+  'Submit' =>
+    'é€å‡º',
+  'hint_' =>
+    'æç¤º_',
+  'first_capture' =>
+    'ç¬¬ä¸€æ»´è¡€',
+  'completed_by' =>
+    'å·²å®Œæˆï¼š',
+  'scoreboard_' =>
+    'è¨˜åˆ†æ¿_',
+  'filter_' =>
+    'ç¯©é¸_',
+  'rank_' =>
+    'æŽ’å_',
+  'team_name_' =>
+    'éšŠä¼åç¨±_',
+  'quiz_pts_' =>
+    'æ¸¬é©—åž‹_å¾—åˆ†_',
+  'flag_pts_' =>
+    'æ——æ¨™åž‹_å¾—åˆ†_',
+  'base_pts_' =>
+    'åŸºåœ°åž‹_å¾—åˆ†_',
+  'total_pts_' =>
+    'ç¸½_å¾—åˆ†_',
+  'team_' =>
+    'éšŠä¼_',
+  'team_members' =>
+    'éšŠä¼_æˆå“¡',
+  'base_pts' =>
+    'åŸºåœ°åž‹_å¾—åˆ†',
+  'quiz_pts' =>
+    'æ¸¬é©—åž‹_å¾—åˆ†',
+  'flag_pts' =>
+    'æ——æ¨™åž‹_å¾—åˆ†_',
+  'total_pts' =>
+    'ç¸½_å¾—åˆ†',
+  'Tool bars are located on all edges of the gameboard. Tap a category to expand and close each tool bar.' =>
+    'å·¥å…·åˆ—ä½è½æ–¼éŠæˆ²ç‰ˆåœ–çš„å››å‘¨ã€‚é»žæ“Šä»»ä¸€åˆ†é¡žä»¥å±•é–‹æˆ–é—œé–‰å„å·¥å…·åˆ—ã€‚',
+  'Tool_Bars' =>
+    'å·¥å…·_åˆ—',
+  'Tap the "Game Clock" to keep track of time during gameplay. Donâ€™t let time get the best of you.' =>
+    'é»žæ“Š "éŠæˆ²æ™‚é–“" ä»¥éš¨æ™‚è¿½è¹¤å‰©é¤˜æ™‚é–“ã€‚åˆ¥æ•—çµ¦æ™‚é–“äº†ã€‚',
+  'Game_Clock' =>
+    'éŠæˆ²_æ™‚é–“',
+  'Countries marked with an ' =>
+    'æœ‰è‘—',
+  'are captured by you.' =>
+    'ç¬¦è™Ÿä»£è¡¨æ‚¨å¥ªå¾—çš„åœ‹å®¶ã€‚',
+  ' are owned by others.' =>
+    'ç¬¦è™Ÿä»£è¡¨è¢«å…¶ä»–äººä½”æœ‰çš„åœ‹å®¶ã€‚',
+  'Captures' =>
+    'å¥ªå¾—',
+  'Tap Plus[+] to Zoom In. Tap Minus[-] to Zoom Out.' =>
+    'é»žæ“Š + [+] ä»¥æ”¾å¤§. é»žæ“Š - [-] ä»¥ç¸®å°ã€‚',
+  'Click and Drag to move left, right, up and down.' =>
+    'é»žæ“Šä¸¦æ‹–æ›³ä»¥ç§»å‹•ç‰ˆåœ–ã€‚',
+  'Zoom' =>
+    'ç¸®æ”¾',
+  'Tap Forward Slash [/] to activate computer commands. A list of commands can be found under "Rules".' =>
+    'é»žæ“Š / [/] ä»¥åŸ·è¡Œé›»è…¦æŒ‡ä»¤ã€‚åœ¨ "è¦å‰‡" åº•ä¸‹æ‰¾åˆ°å¯ç”¨çš„æŒ‡ä»¤ã€‚',
+  'Command_Line' =>
+    'æŒ‡ä»¤_è¡Œ',
+  'Click "Nav" to access main navigation links like Rules of Play, Registration, Blog, Jobs & more.' =>
+    'é»žæ“Š "å°Žèˆª" ä»¥ç²å–æ›´å¤šè³‡è¨Šï¼Œä¾‹å¦‚ï¼š éŠæˆ²è¦å‰‡ã€è¨»å†Šã€éƒ¨è½æ ¼ã€å·¥ä½œæˆ–æ›´å¤šã€‚',
+  'Track your competition by clicking "scoreboard" to access real-time game statistics and graphs.' =>
+    'é»žæ“Š "è¨˜åˆ†æ¿" ä»¥è¿½è¹¤æ‚¨ç›®å‰éŠæˆ²çš„é€²åº¦ï¼Œä¸¦æŸ¥çœ‹å³æ™‚çš„çµ±è¨ˆè³‡æ–™èˆ‡åœ–å½¢ã€‚',
+  'Have fun, be the best and conquer the world.' =>
+    'æˆç‚ºæœ€æ£’çš„å¾æœè€…å§ï¼Œç¥æ„‰å¿«ã€‚',
+  'Game_On' =>
+    'éŠæˆ²_é–‹å§‹',
+  'tutorial_' =>
+    'æ•™å­¸_',
+  'Next' =>
+    'ä¸‹ä¸€æ­¥',
+  'Skip to play' =>
+    'è·³éŽæ•™å­¸',
+  'Powered By Facebook' =>
+    'Powered By Facebook',
+  'Active Directory / LDAP' =>
+    'Active Directory / LDAP',
+  'LDAP Server' =>
+    'LDAPæœå‹™å™¨',
+  'LDAP Port' =>
+    'LDAPç«¯å£',
+  'LDAP Domain' =>
+    'LDAPåŸŸ',
 );
