@@ -6,7 +6,8 @@ $lang = null;
 
 async function tr_start(): Awaitable<void> {
   $config = await Configuration::gen('language');
-  $language = $config->getValue();
+  /* $language = $config->getValue(); */
+  $language = "cn";
   $document_root = must_have_string(Utils::getSERVER(), 'DOCUMENT_ROOT');
   if (preg_match('/^[^,;]+$/', $language) &&
       file_exists($document_root."/language/lang_".$language.".php")) {
