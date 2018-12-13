@@ -10,55 +10,55 @@ $translations = array(
   'Conquer the world' =>
     '征服世界',
   'Play' =>
-    '開始',
+    '开始',
   'Welcome to the Facebook Capture the Flag Competition. By clicking "Play," you will be entered into the official CTF challenge. Good luck in your conquest.' =>
-    '歡迎來到 Facebook Capture the Flag 競賽。立刻點擊 "開始" 進入正式的 CTF 挑戰。祝征途愉快。',
+    '欢迎来到 Facebook Capture the Flag 竞赛。立即点击“开始”进入正式的CTF挑战。祝征途愉快！',
   'Get ready for the CTF to start and access the gameboard now!' =>
-    '立即查看遊戲版圖並準備開始進行 CTF！',
+    '立即查看游戏版图并准备开始进行CTF！',
   'Gameboard' =>
-    '遊戲版圖',
+    '游戏版图',
   'Register Team' =>
-    '註冊隊伍',
+    '注册队伍',
   'Get ready for the CTF to start and register your team now!' =>
-    '立即註冊隊伍並準備開始進行 CTF！',
+    '立即注册队伍并准备开始进行CTF!',
   'Login' =>
-    '登入',
+    '登录',
   'Soon' =>
-    '即將',
+    '即将',
   'Upcoming Game' =>
-    '待進行',
+    '待进行',
   '_days' =>
     '_天',
   '_hours' =>
-    '_小時',
+    '_小时',
   '_minutes' =>
-    '_分鐘',
+    '_分钟',
   '_seconds' =>
     '_秒',
   'Official CTF Rules' =>
-    '正式 CTF 規則',
+    '正式 CTF 规则',
   'Following actions are prohibited, unless explicitly told otherwise by event Admins.' =>
-    '除非管理員明確說明，否則禁止以下的行為。',
+    '除非管理员明确说明，否则禁止以下的行为。',
   'Rule' =>
-    '規則',
+    '规则',
   'Cooperation' =>
     '互助',
   'No cooperation between teams with independent accounts. Sharing of keys or providing revealing hints to other teams is cheating, don’t do it.' =>
-    '隊伍之間禁止互助的行為。謹記，分享金鑰或是提供提示給其它的隊伍將被視為作弊！',
+    '队伍之间禁止互助的行为。谨记，分享隊伍之間禁止互助的行為。謹記，分享Keys或是提供提示给其它队伍，将被视为作弊！',
   'Attacking Scoreboard' =>
-    '攻擊記分板',
+    '攻击记分板',
   'No attacking the competition infrastructure. If bugs or vulns are found, please alert the competition organizers immediately.' =>
-    '禁止攻擊競賽相關的基礎設施。如發現錯誤或是漏洞，請立即通報管理員。',
+    '禁止攻击竞赛相关的基础设备。如发现错误或是漏洞，请立即通报管理员。',
   'Sabotage' =>
-    '妨害',
-  'Absolutely no sabotaging of other competing teams, or in any way hindering their independent progress.' =>
-    '強烈禁止隊伍間解題進度之妨害或阻撓。',
+    '破坏',
+  'absolutely no sabotaging of other competing teams, or in any way hindering their independent progress.' =>
+    '绝对没有破坏其他参赛队伍，或以任何方式阻碍他们的独立发展。',
   'Bruteforcing' =>
-    '暴力攻擊',
+    '暴力攻击',
   'No brute forcing of challenge flag/ keys against the scoring site.' =>
-    '禁止以暴力方式嘗試取得記分網站金鑰。',
+    '禁止以暴力方式尝试取得Flag或Keys。',
   'Denial Of Service' =>
-    '阻斷服務攻擊',
+    '拒绝服务攻击',
   'DoSing the CTF platform or any of the challenges is forbidden.' =>
     '禁止對 CTF 平台或題目實行阻斷服務攻擊。',
   'Legal' =>
